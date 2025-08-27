@@ -1,0 +1,25 @@
+{
+  "name": "support-validation-site",
+  "version": "1.0.0",
+  "description": "A validation site with login functionality and email integration",
+  "main": "index.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "keywords": [
+    "validation",
+    "login",
+    "netlify",
+    "email"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
